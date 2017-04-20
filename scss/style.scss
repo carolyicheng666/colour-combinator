@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700');
+html, body { width: 100%; height: 100%; }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: cell;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    user-select: none;
+}
+h1 { font-size: 6vw; }
+span, a { font-size: 1vw; position: absolute; bottom: .5vw; color: white; }
+span { left: .5vw; }
+a { right: .5vw; text-decoration: none;}
